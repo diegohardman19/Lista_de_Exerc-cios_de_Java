@@ -1,0 +1,15 @@
+let n = parseInt(prompt("Quantos números você quer informar?"));
+let menor = Infinity;
+let maior = -Infinity;
+let soma = 0;
+
+for (let i = 0; i < n; i++) {
+  let num = parseFloat(prompt("Digite um número:"));
+  soma += num;
+  if (num < menor) menor = num;
+  if (num > maior) maior = num;
+}
+
+console.log("Menor:", menor);
+console.log("Maior:", maior);
+console.log("Soma:", soma);
