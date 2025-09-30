@@ -4,3 +4,4 @@ let perimetro = 2 * Math.PI * raio;
 
 console.log("Área:", area.toFixed(2));
 console.log("Perímetro:", perimetro.toFixed(2));
+
